@@ -1,0 +1,117 @@
+
+
+/***********  GENERAL  ***************/
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.wrapper {
+	/*background-color: lightgrey;*/
+	width: 80%;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+
+/***********  FONTS  ***************/
+
+
+
+/***********  COLORS  ***************/
+
+/* 
+Red = #FFB4B0  
+Blue = #4DD7FA  
+Light yellow = #FEFAC0  
+Dark yellow = #785616 */
+
+/***********  NAVIGATION  ***************/
+
+nav {
+	background: #FFB4B0;
+	border: solid;
+	width: 66%;
+	/*width: 775px;*/
+	margin: 5px;
+}
+nav ul {
+	list-style: none;
+}
+nav li {
+	display: inline;
+}
+
+
+/***********  FOOTER  ***************/
+
+
+
+/***********  SECTIONS  ***************/
+
+
+
+/***********  PAGE: HOME  ***************/
+
+main {
+	background: #FEFAC0;
+	width:  45%;
+	height: 400px;
+	border: solid;
+	margin: 5px;
+	float: left;
+	padding: 15px 15px;	
+}
+
+#inputBar {
+	background: #4DD7FA;
+	width: 20%;
+	height: 400px;
+	float: left;
+	border: solid;
+	margin: 5px;
+	padding: 15px 15px;
+}
+
+label {
+	font-weight: bold;
+}
+
+#genreLeft {
+	float: left;
+}
+
+#genreRight {
+	float: right;
+}
+
+#genreCenter {
+	text-align: center;
+}
+
+#genreButton {
+	margin-top: 15px;
+	background-color: #fff;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+/***********  PAGE: ONE  ***************/
+
+
+
+/***********  PAGE: TWO  ***************/
+
+
+
+/***********  PAGE: THREE  ***************/
+
+
+
+/***********  PAGE: FOUR  ***************/
+
+
