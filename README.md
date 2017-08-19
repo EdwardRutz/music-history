@@ -1,26 +1,23 @@
 #README
 
 # Music History: 
-- [X] Part 1, Module 1, Exercise #10
-- [ ] Part 2, Module 1, Exercise #17
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
+- [X] Part 1, Ex #10, HTML, CSS
+- [ ] Part 2, Ex #17, Arrays
+- [ ] Part 3,
+- [ ] Part 4,
+- [ ] Part 5,
+- [ ] Part 6,
+- [ ] Part 7,
+- [ ] Part 8,
+- [ ] Part 9,
+- [ ] Part 10,
+- [ ] Part 11,
 
 ***
 This is the project that you will be working for your individual work throughout the entire front end course. Don't worry, you'll be building lots of other applications, but when you learn a new technique, library or language, you'll be cutting your teeth with it on Music History.
 
 > This project is made up of several parts, and by creating a branch for each section you will be able to preserve the concepts you have learned on github as resources should you need them in the future. We have mentioned you should be commenting your code, right?
 ***
-
-
-
-
 
 
 ***
