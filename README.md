@@ -2,7 +2,7 @@
 
 # Music History: 
 - [X] Part 1, Ex #10, HTML, CSS
-- [ ] Part 2, Ex #17, Arrays
+- [70%] Part 2, Ex #17, Arrays
 - [ ] Part 3,
 - [ ] Part 4,
 - [ ] Part 5,
