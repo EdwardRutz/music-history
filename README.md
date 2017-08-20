@@ -41,9 +41,9 @@ Use JavaScript to create a list of songs in the `index.html` file for your Music
 - [X] Download [`songs.js`](https://raw.githubusercontent.com/nashville-software-school/front-end-curriculum/9f5d7303f4c53102e8918f0ca06bebc84c91d266/resources/js-101.js), which contains an array of strings with song information.
 
 - [X] Add one song to the beginning and the end of the array.
-1. Loop over the array, and remove any words or characters that obviously don't belong.
-1. Find and replace the `>` character in each item with a `-` character.
-1. Add each string to the DOM in `index.html` in the main content area.
+- [ ] Loop over the array, and remove any words or characters that obviously don't belong.
+- [X] Find and replace the `>` character in each item with a `-` character.
+- [ ] Add each string to the DOM in `index.html` in the main content area.
 
 > **Example output:**  
 >  
@@ -68,4 +68,14 @@ You will be building the basic structure of your Music History application in HT
 	- you can use `<a href="#">View music</a>` for now
 - [X] Pick your four favorite songs from the artists you have chosen and use the information for each in the list that's on the right-hand side. You can use `h1` tags, `div` tags, `section` tags... whatever you like.
 - [X] Once you are done, make sure you add your files to git, make a commit, and then push your new code up to Github with the following command `git push origin master`.
+
+
+## Sources
+[MDN: Regular Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
+
+[Regular Expressions](http://www.javascriptkit.com/javatutors/redev2.shtml)
+
+[MDN: Replace Method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace)
+
+[Replace Characters in String Array](https://stackoverflow.com/questions/26742310/replace-characters-in-string-array-javascript#26742337)
 
