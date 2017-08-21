@@ -52,7 +52,9 @@ nav li {
 
 
 /***********  SECTIONS  ***************/
-
+#songInfoOut {
+	font-size: .75em;
+}
 
 
 /***********  PAGE: HOME  ***************/
