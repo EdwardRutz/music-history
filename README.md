@@ -2,7 +2,7 @@
 
 # Music History: 
 - [X] Part 1, Ex #10, HTML, CSS
-- [70%] Part 2, Ex #17, Arrays
+- [X] Part 2, Ex #17, Arrays
 - [ ] Part 3,
 - [ ] Part 4,
 - [ ] Part 5,
@@ -18,8 +18,11 @@ This is the project that you will be working for your individual work throughout
 
 > This project is made up of several parts, and by creating a branch for each section you will be able to preserve the concepts you have learned on github as resources should you need them in the future. We have mentioned you should be commenting your code, right?
 ***
+***
 
 
+
+***
 ***
 # Music History Part 2
 
@@ -41,9 +44,9 @@ Use JavaScript to create a list of songs in the `index.html` file for your Music
 - [X] Download [`songs.js`](https://raw.githubusercontent.com/nashville-software-school/front-end-curriculum/9f5d7303f4c53102e8918f0ca06bebc84c91d266/resources/js-101.js), which contains an array of strings with song information.
 
 - [X] Add one song to the beginning and the end of the array.
-- [ ] Loop over the array, and remove any words or characters that obviously don't belong.
+- [X] Loop over the array, and remove any words or characters that obviously don't belong.
 - [X] Find and replace the `>` character in each item with a `-` character.
-- [ ] Add each string to the DOM in `index.html` in the main content area.
+- [X] Add each string to the DOM in `index.html` in the main content area.
 
 > **Example output:**  
 >  
@@ -53,7 +56,13 @@ Use JavaScript to create a list of songs in the `index.html` file for your Music
 >  
 > ...
 
+
+
 ***
+***
+
+
+
 # Module 1, Exercise #10
 
 You will be building the basic structure of your Music History application in HTML and making it look good with the skills you learned in CSS.
@@ -68,6 +77,12 @@ You will be building the basic structure of your Music History application in HT
 	- you can use `<a href="#">View music</a>` for now
 - [X] Pick your four favorite songs from the artists you have chosen and use the information for each in the list that's on the right-hand side. You can use `h1` tags, `div` tags, `section` tags... whatever you like.
 - [X] Once you are done, make sure you add your files to git, make a commit, and then push your new code up to Github with the following command `git push origin master`.
+
+
+
+***
+***
+
 
 
 ## Sources
