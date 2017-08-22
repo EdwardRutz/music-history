@@ -60,7 +60,7 @@ nav li {
 main {
 	background: #FEFAC0;
 	width:  45%;
-	height: 400px;
+	height: 600px;
 	border: solid;
 	margin: 5px;
 	float: left;
@@ -70,7 +70,7 @@ main {
 #inputBar {
 	background: #4DD7FA;
 	width: 20%;
-	height: 400px;
+	height: 600px;
 	float: left;
 	border: solid;
 	margin: 5px;
@@ -93,7 +93,7 @@ label {
 	text-align: center;
 }
 
-#genreButton {
+#inputButton {
 	margin-top: 15px;
 	background-color: #fff;
 	font-weight: bold;
