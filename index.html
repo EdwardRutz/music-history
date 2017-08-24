@@ -13,7 +13,7 @@
 				<h1>Music History</h1>
 				<nav>
 					<ul>
-						<li><a href="#">View Music | </a></li>
+						<li><a href="#">List Music | </a></li>
 						<li><a href="#">Add Music | </a></li>
 						<li><a href="#">Profile</a></li>
 						<li></li>
@@ -24,57 +24,59 @@
 			
 			<div id="inputBar">
 
-				<label for="songLength">Song Length:</label><!--SONG LENGTH SLIDER-->
-				  <br>
-				<input type="range" min="0" max="50" step="5" value="25"/>
-				  <br>				
-				<label for="artist">Artist</label>
-				  <br>
-			  <select id="artist" style="width: 150px;"> <!--ARTIST MENU-->
-				  <option>Artist</option>
-				  <option>Artist</option>
-				  <option selected="selected">Favorite Artist</option>
-				  <option>Artist</option>
-				  <option>Artist</option>
-				</select>
-					<br><br>
-				<label for="album">Album:</label><!--ALBUM MENU-->
-				  <br>
-			  <select id="album" style="width: 150px;">
-			  	<option>Options</option>
-				  <option>Album</option>
-				  <option>Album</option>
-				  <option>Album</option>
-				  <option>Album</option>
-				  <option>Album</option>
+				<div id="listMusicOff"> <!--LIST MUSIC VIEW-->
+					<label for="songLength">Song Length:</label><!--SONG LENGTH SLIDER-->
+					  <br>
+					<input type="range" min="0" max="50" step="5" value="25"/>
+					  <br>				
+					<label for="artist">Artist</label>
+					  <br>
+				  <select id="artist" style="width: 150px;"> <!--ARTIST MENU-->
+					  <option>Artist</option>
+					  <option>Artist</option>
+					  <option selected="selected">Favorite Artist</option>
+					  <option>Artist</option>
+					  <option>Artist</option>
+					</select>
+						<br><br>
+					<label for="album">Album:</label><!--ALBUM MENU-->
+					  <br>
+				  <select id="album" style="width: 150px;">
+				  	<option>Options</option>
+					  <option>Album</option>
+					  <option>Album</option>
+					  <option>Album</option>
+					  <option>Album</option>
+					  <option>Album</option>
 
-				</select>
-					<br>
-					<br>
+					</select>
+						<br>
+						<br>
 
-				<label for="genre">Genre:</label><!-- GENRE CHECKBOXES -->
-					<div id="genre">
-						<form id="genreLeft">
-						  <input type="checkbox" name="" value=""> Rock<br>
-						  <input type="checkbox" name="" value=""> Pop<br>
-						  <input type="checkbox" name="" value=""> Blues<br>
-					 </form>
+					<label for="genre">Genre:</label><!-- GENRE CHECKBOXES -->
+						<div id="genre">
+							<form id="genreLeft">
+							  <input type="checkbox" name="" value=""> Rock<br>
+							  <input type="checkbox" name="" value=""> Pop<br>
+							  <input type="checkbox" name="" value=""> Blues<br>
+						 </form>
 
-					  <form id="genreRight">
-						  <input type="checkbox" name="" value="">Classical<br>
-						  <input type="checkbox" name="" value="">Jazz<br>
-						  <input type="checkbox" name="" value="">Hip hop<br>
-					  </form>
+						  <form id="genreRight">
+							  <input type="checkbox" name="" value="">Classical<br>
+							  <input type="checkbox" name="" value="">Jazz<br>
+							  <input type="checkbox" name="" value="">Hip hop<br>
+						  </form>
 
-					  <form id="genreCenter">
-					 	 <input id="inputButton" type="submit" value="Filter">	
-					 	</form>
-					 	<br>
-					 	<hr>
-					</div><!--Genre Checkboxes -->	
+						  <form id="genreCenter">
+						 	 <input id="inputButton" type="submit" value="Filter">	
+						 	</form>
+						 	<br>
+						 	<hr>
+						</div><!--Genre Checkboxes -->
 
-					<div><!-- Add Song Info Inputs -->
-						<form>
+					</div><!--LIST MUSIC VIEW-->
+
+					<div id="addMusic"><!-- Add Music View -->
 					  Song:<br>
 					  <input type="text" name="" value="">
 					  <br>
@@ -84,9 +86,8 @@
 					  Album:
 					  <input type="text" name="" value="">
 					  <br>
-					   <input id="inputButton" type="submit" value="ADD">
-					   </form>
-					</div><!-- Add Song Info Inputs -->		
+					  <input id="inputButton" type="submit" value="ADD">
+					</div><!-- Add Music View -->		
 				</div><!--input bar-->
 
 			<main>
