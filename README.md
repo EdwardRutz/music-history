@@ -17,9 +17,9 @@
 ***
 
 
-This is the project that you will be working for your individual work throughout the entire front end course. Don't worry, you'll be building lots of other applications, but when you learn a new technique, library or language, you'll be cutting your teeth with it on Music History.
+>_This is the project that you will be working for your individual work throughout the entire front end course. Don't worry, you'll be building lots of other applications, but when you learn a new technique, library or language, you'll be cutting your teeth with it on Music History._
 
-> This project is made up of several parts, and by creating a branch for each section you will be able to preserve the concepts you have learned on github as resources should you need them in the future. We have mentioned you should be commenting your code, right?
+> _This project is made up of several parts, and by creating a branch for each section you will be able to preserve the concepts you have learned on github as resources should you need them in the future. We have mentioned you should be commenting your code, right?_
 
 
 ***
@@ -48,15 +48,25 @@ Time to make Music History into a single page application. Before you begin plea
 	- You do not need to enclose them in a `<form>` element because we're not actually submitting this form anywhere.
 
 - [X] Add a `<button>` element at the bottom of the input fields labeled "Add".
-- VIEWS
-	- The input fields and the add button make up the *Add Music View*.
-		- The *Add Music View* should not appear when the user first visits your page. 
-		- The song list with the corresponding filter form should be visible.
-	- [ ] *List Music View*: The existing view - the combination of the filter form and the song list 
+
+VIEWS
+ADD MUSIC
+- [ ] The input fields and the add button make up the *Add Music View*.
+- [ ] The *Add Music View* should not appear when the user first visits your page. 
+	- The *List Music View* song list with the corresponding filter form should be visible.
 - [ ] When the user clicks on "Add Music" in the navigation bar, the *List Music View* should be hidden, and the *Add Music View* should be shown 
 	- ([see example wireframe](https://moqups.com/chortlehoort/1E8LJX7r/p:a0cf17f7b)).
+
+LIST MUSIC
+- [ ] *List Music View*: The existing view - the combination of the filter form and the song list 
+- *List Music View* shows when page loads
 - [ ] When the user clicks on "List Music" in the navigation bar, the *Add Music View* should be hidden, and the *List Music View* should be shown ([see example wireframe](https://moqups.com/chortlehoort/1E8LJX7r/p:a8d99d401)).
-- [ ] Once the user fills out the song form and clicks the add button, you should collect all values from the input fields, add the song to your array of songs, and update the song list in the DOM.
+
+
+- [ ] Once the user fills out the song form and clicks the add button, you should 
+	- [ ] collect all values from the input fields, 
+	- [ ] add the song to your array of songs, and 
+	- [ ] update the song list in the DOM.
 
 
 
