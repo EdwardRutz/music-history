@@ -21,7 +21,11 @@ for(i=0; i<songs.length; i+=1) {
 				.replace(">", "-");
 }
 
-console.log("songs", songs);
+//Home View (Default)
+  addView.classList.add("hidden");
+
+
+
 
 //********* OUTPUT **********
 
