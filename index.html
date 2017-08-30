@@ -13,8 +13,9 @@
 				<h1>Music History</h1>
 				<nav>
 					<ul>
-						<li><a href="#">List Music | </a></li>
-						<li><a href="#">Add Music | </a></li>
+						<li><a href="#" id="link-home">Home | </a></li>
+						<li><a href="#" id="link-listMusic">List Music | </a></li>
+						<li><a href="#" id="link-AddMusic">Add Music | </a></li>
 						<li><a href="#">Profile</a></li>
 						<li></li>
 						<li></li>
@@ -24,7 +25,7 @@
 			
 			<div id="inputBar">
 
-				<div id="listMusicOff"> <!--LIST MUSIC VIEW-->
+				<div id="listMusic"="hidden" class> <!--START LIST MUSIC VIEW-->
 					<label for="songLength">Song Length:</label><!--SONG LENGTH SLIDER-->
 					  <br>
 					<input type="range" min="0" max="50" step="5" value="25"/>
@@ -74,9 +75,9 @@
 						 	<hr>
 						</div><!--Genre Checkboxes -->
 
-					</div><!--LIST MUSIC VIEW-->
+					</div><!--END LIST MUSIC VIEW-->
 
-					<div id="addMusic"><!-- Add Music View -->
+					<div class="hidden" id="addMusic"><!-- Start Add Music View -->
 					  Song:<br>
 					  <input type="text" name="" value="">
 					  <br>
@@ -87,24 +88,19 @@
 					  <input type="text" name="" value="">
 					  <br>
 					  <input id="inputButton" type="submit" value="ADD">
-					</div><!-- Add Music View -->		
+					</div><!-- End Add Music View -->		
 				</div><!--input bar-->
 
-			<main>
-				<h3>Wonderful World</h3>
-				<p>Sam Cooke | Sam's Greatest Hits | 50s | 
-					<a href="https://www.youtube.com/watch?v=sdjgj5A2gOs"> Listen</a></p>
-				<h3>Song Title</h3>
-				<p>Artist Name | Album Name | Genre</p>
-				<h3>Song Title</h3>
-				<p>Artist Name | Album Name | Genre</p>
-			</main>
+			<main id="songInfoOut"></main>
 			
 			<footer>
 				
 			</footer>
 		</div> <!--close wrapper-->	
-		<script type="text/javascript" src="javascripts/songs.js"></script>
+<!-- 	<script type="text/javascript" src="javascripts/home.js"></script>
+			<script type="text/javascript" src="javascripts/list.js"></script>
+			<script type="text/javascript" src="javascripts/add.js"></script>-->
+ 		<script type="text/javascript" src="javascripts/songs.js"></script>
 	</body>
 </html>
 
