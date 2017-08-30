@@ -33,14 +33,13 @@
 > :warning: This exercise requires that you have completed the [Music History 2](../../1-the-static-web/exercises/SW_JS_MUSIC_HISTORY_02.md) exercise.
 
 ## Setup
-
 ```
 git checkout -b version-3
 ```
 
 ## Requirements
 
-Time to make Music History into a single page application. Before you begin please [review the sample code](https://github.com/nashville-software-school/front-end-milestones/blob/master/2-single-page-applications/resources/SP_JS_SINGLE_PAGE_APPLICATIONS.md) I provided in JavaScript 103 about building a simple SPA.
+>Time to make Music History into a single page application. Before you begin please [review the sample code](https://github.com/nashville-software-school/front-end-milestones/blob/master/2-single-page-applications/resources/SP_JS_SINGLE_PAGE_APPLICATIONS.md) I provided in JavaScript 103 about building a simple SPA.
 
 - [X] In the navigation bar, make sure you have two links labeled "List Music", and "Add Music".
 
@@ -50,12 +49,14 @@ Time to make Music History into a single page application. Before you begin plea
 - [X] Add a `<button>` element at the bottom of the input fields labeled "Add".
 
 VIEWS
+
 ADD MUSIC
 - [ ] The input fields and the add button make up the *Add Music View*.
 - [ ] The *Add Music View* should not appear when the user first visits your page. 
 	- The *List Music View* song list with the corresponding filter form should be visible.
 - [ ] When the user clicks on "Add Music" in the navigation bar, the *List Music View* should be hidden, and the *Add Music View* should be shown 
 	- ([see example wireframe](https://moqups.com/chortlehoort/1E8LJX7r/p:a0cf17f7b)).
+
 
 LIST MUSIC
 - [ ] *List Music View*: The existing view - the combination of the filter form and the song list 
